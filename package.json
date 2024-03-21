@@ -1,0 +1,28 @@
+{
+	"name": "tailwind-plugin-webcomponents",
+	"version": "0.0.1",
+	"description": "",
+	"main": "src/index.js",
+	"scripts": {
+		"format": "biome format * --write",
+		"lint": "biome lint *",
+		"check": "biome check --apply *"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lavigneer/tailwind-plugin-webcomponents.git"
+	},
+	"keywords": ["tailwind", "plugin", "webcomponents"],
+	"author": "Eric Lavigne",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/lavigneer/tailwind-plugin-webcomponents/issues"
+	},
+	"homepage": "https://github.com/lavigneer/tailwind-plugin-webcomponents#readme",
+	"peerDependencies": {
+		"tailwindcss": ">=3.0.0 || insiders"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.6.1"
+	}
+}
